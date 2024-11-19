@@ -76,7 +76,10 @@ graph TD
    - Setelah akses selesai, Red LED padam selama **550ms** sebelum kembali menyala.
    - Siklus ini terus berulang dengan pola yang konsisten.
 
-## 3. **Blue LED**
+## 3. **Orange LED**
+   -  LED oranye berkedip dengan kecepatan 10 Hz untuk menunjukkan bahwa sistem berjalan normal.
+
+## 4. **Blue LED**
    - Blue LED menyala jika terjadi kontensi resource, yaitu ketika dua tugas mencoba mengakses resource bersama secara bersamaan.
    - Blue LED padam setelah resource selesai diakses dan `StartFlag` kembali aktif.
 
