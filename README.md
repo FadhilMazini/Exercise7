@@ -55,7 +55,7 @@ Tugas-tugas dalam proyek ini dirancang untuk menyalakan dan mematikan LED dengan
 - Tugas LED Oranye tidak bergantung pada resource bersama dan berjalan secara independen.
 
 ## Diagram Alur Kerja
-
+![Screenshot 2024-12-04 154011](https://github.com/user-attachments/assets/a1683c74-7dce-438f-b21b-75cdb8e0ced3)
 ```mermaid
 graph TD
     A[Tugas LED Hijau] -->|Masuk Bagian Kritis| B[Resource Bersama]
@@ -64,7 +64,10 @@ graph TD
     D -->|Keluar Bagian Kritis| E
     F[Tugas LED Oranye] -->|Independen| G[Indikator Sistem]
 ```
-# Hasil Perilaku LED
+## Dokumentasi
+![WhatsApp Video 2024-12-04 at 08 43 16_0fd60e04](https://github.com/user-attachments/assets/4d948770-0695-43b6-ba59-6c7c4dad731f)
+
+## Hasil Perilaku LED
 
 ## 1. **Green LED**
    - Green LED menyala selama **200ms** saat mengakses resource bersama.
